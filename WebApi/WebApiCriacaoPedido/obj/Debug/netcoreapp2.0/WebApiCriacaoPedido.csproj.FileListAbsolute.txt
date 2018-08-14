@@ -1,0 +1,14 @@
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\WebApiCriacaoPedido.deps.json
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\WebApiCriacaoPedido.runtimeconfig.json
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\WebApiCriacaoPedido.runtimeconfig.dev.json
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\WebApiCriacaoPedido.dll
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\WebApiCriacaoPedido.pdb
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\ClassLibraryCriacaoPedido.dll
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\ClassLibraryCriacaoPedido.pdb
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\obj\Debug\netcoreapp2.0\WebApiCriacaoPedido.csproj.CoreCompileInputs.cache
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\obj\Debug\netcoreapp2.0\WebApiCriacaoPedido.AssemblyInfoInputs.cache
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\obj\Debug\netcoreapp2.0\WebApiCriacaoPedido.AssemblyInfo.cs
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\obj\Debug\netcoreapp2.0\WebApiCriacaoPedido.dll
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\obj\Debug\netcoreapp2.0\WebApiCriacaoPedido.pdb
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\DadosClassLibrary.dll
+E:\Projetos Angular\WebApi\WebApiCriacaoPedido\bin\Debug\netcoreapp2.0\DadosClassLibrary.pdb

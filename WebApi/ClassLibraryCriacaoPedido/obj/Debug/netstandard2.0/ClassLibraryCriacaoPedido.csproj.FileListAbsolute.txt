@@ -1,0 +1,10 @@
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\bin\Debug\netstandard2.0\ClassLibraryCriacaoPedido.deps.json
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\bin\Debug\netstandard2.0\ClassLibraryCriacaoPedido.dll
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\bin\Debug\netstandard2.0\ClassLibraryCriacaoPedido.pdb
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\obj\Debug\netstandard2.0\ClassLibraryCriacaoPedido.csproj.CoreCompileInputs.cache
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\obj\Debug\netstandard2.0\ClassLibraryCriacaoPedido.AssemblyInfoInputs.cache
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\obj\Debug\netstandard2.0\ClassLibraryCriacaoPedido.AssemblyInfo.cs
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\obj\Debug\netstandard2.0\ClassLibraryCriacaoPedido.dll
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\obj\Debug\netstandard2.0\ClassLibraryCriacaoPedido.pdb
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\bin\Debug\netstandard2.0\DadosClassLibrary.dll
+E:\Projetos Angular\WebApi\ClassLibraryCriacaoPedido\bin\Debug\netstandard2.0\DadosClassLibrary.pdb
