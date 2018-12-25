@@ -1,5 +1,131 @@
-/* You can add global styles to this file, and also import other style files */
-html,
-body {
+.nav-wrapper {
+  background-image: linear-gradient(to right bottom, #4d8076, #5a9183, #69a38f, #79b49b, #8ac6a6);
+}
+
+a.brand-logo {
+  color: white;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+a {
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+html{
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+body{
+  display: block;
   height: 100%;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 98%;
+    max-width: 100%;
+    margin-top: 0.5%;
+  }
+}
+
+.collapsible-body {
+  display: block;
+  background-color: white;
+}
+
+.collapsible-header i {
+  font-size: 2rem;
+  width: 3rem;
+  margin-top: 0.2rem;
+  margin-right: 0rem;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.collapsible-header {
+  background-image: linear-gradient(to right, #1a2980, #26d0ce);
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.btn {
+  margin-right: 0.4rem;
+}
+
+.headerCard{
+  font-size: 1.7rem;
+  text-align: left;
+  display: inline;
+}
+
+.headerCard i{
+  font-size: 2rem;
+  width: 3rem;
+  margin-right: 0rem;
+  margin-bottom: 0.4rem;
+  vertical-align: middle;
+}
+
+.divider{
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  margin-bottom: 3.2rem;
+}
+
+.breadcrumbs-title {
+  font-size: 1.5rem;
+  line-height: 1.804rem;
+  margin: 18px 0px 0px 0px;
+}
+
+.breadcrumb {
+  padding: 0px;
+  margin: 15px 0px;
+  list-style: none;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #008C81;
+  content: "/\00a0";
+}
+
+.breadcrumb .active {
+  font-weight: normal;
+  color: #999;
+}
+
+.breadcrumb a {
+  color: #008C81;
+  text-shadow: none;
+  font-size: 1.1rem;
+  font-style: oblique;
+}
+
+
+.breadcrumb:before {
+  content: none;
+  color: rgba(255, 255, 255, 0.7);
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0 10px 0 8px;
+  -webkit-font-smoothing: antialiased;
 }

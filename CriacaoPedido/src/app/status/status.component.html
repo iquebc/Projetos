@@ -1,0 +1,68 @@
+<div id="breadcrumb-wrapper" class="white z-depth-0">
+  <div class="row">
+    <div class="col s12">
+      <ol class="breadcrumb">
+        <li><a [routerLink]="['/pedido']">Home</a></li>
+        <li><a [routerLink]="['/status']">Status</a></li>
+        <li class="active"><a [routerLink]="['/status']">Listar Status</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="container z-depth-0">
+  <div class="card-panel z-depth-3">
+      <h4 class="headerCard"><i class="material-icons black-text">list</i>Lista de Status</h4>
+    <div class="divider"></div>
+    <table class="highlight responsive-table">
+      <thead>
+        <tr>
+          <th>
+            Id
+          </th>
+          <th>
+            Descrição
+          </th>
+          <th>Ações</th>
+        </tr>
+        <tr>
+          <th>
+            <div class="input-field">
+              <input type="text" id="txtId" />
+              <label for="txtId">Buscar Id</label>
+            </div>
+          </th>
+          <th>
+            <div class="input-field">
+              <input type="text" id="txtId" />
+              <label for="txtId">Buscar Descrição</label>
+            </div>
+          </th>
+          <th>
+            <a class="waves-effect waves-light btn green accent-4 z-depth-3 right" [routerLink]="['novo']"><i class="material-icons right">add</i>Novo
+              Status</a>
+          </th>
+        </tr>
+        <th>
+        </th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let status of listaStatus">
+          <td>
+            {{status.Id}}
+          </td>
+          <td>
+            {{status.Descricao}}
+          </td>
+          <td>
+            <a class="waves-effect waves-light btn-floating blue lighten-1 z-depth-2 " [routerLink]="[status.Id]"><i
+                class="material-icons">description</i></a>
+            <a class="waves-effect waves-light btn-floating yellow lighten-1 z-depth-2 " [routerLink]="[status.Id, 'edit']"><i
+                class="material-icons">mode_edit</i></a>
+            <a class="waves-effect waves-light btn-floating red lighten-1 z-depth-2 " [routerLink]="[status.Id, 'delete']"><i
+                class="material-icons">delete</i></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

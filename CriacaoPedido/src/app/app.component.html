@@ -1,1 +1,49 @@
+<!-- <div id="topofundo" *ngIf="true"> -->
+<!-- <div class="row col s12">
+    <div class="col s1" style="margin-top:20px">
+      <img src="assets/logo_spdm.png" alt="Logo" />
+    </div>
+    <div class="col s1" style="margin-top:20px">
+      <img src="assets/logo.png" alt="logoPais" />
+    </div>
+    <div class="col s8">
+      <div style="text-align:center">
+        <h3>Programa de Atenção Integral à Saúde - PAIS</h3>
+      </div>
+      <div style="text-align:center">
+        <h5>SPDM - Hospital São Paulo - Hospital Universitário da UNIFESP</h5>
+      </div>
+    </div>
+    <div class="col s2 text-center">
+      <img src="assets/ico_pg.png" alt="Logo Sistema" />
+    </div>
+  </div>
+  <br /> -->
+<div class=" navbar-fixed">
+  <nav>
+    <div class="nav-wrapper z-depth-3 #ada996">
+      <a class="brand-logo center">Gerenciamento de Pedidos</a>
+      <ul class="left">
+        <li routerLinkActive="active">
+          <a [routerLink]="['/pedido']">Início </a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/status']">Status </a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/departamento']">Departamento </a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/modulo']">Módulo </a>
+        </li>
+      </ul>
+      <ul class="right">
+        <li>
+          <a [routerLink]="['/pedido']">Usuário </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
 <router-outlet></router-outlet>

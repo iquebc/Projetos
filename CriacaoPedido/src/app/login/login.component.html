@@ -1,41 +1,40 @@
 <body>
-  <div class="container-fluid">
-    <form [formGroup]="formulario" (ngSubmit)="AutenticarUsuario()">
-
-      <div class="alert-danger" *ngIf="false">
-        <p>Carregando Usuário....</p>
-      </div>
-      <div class="col-6 mx-auto login">
-        <div class="row">
-          <div class="col-7">
-            <div class="row">
-              <div class="col-12 mx-auto">
-                <img src="../../assets/ImagemLogin.gif">
-              </div>
+  <div class="valign-wrapper row login-box">
+    <div class="col card hoverable s6 pull-s3">
+      <form [formGroup]="formulario" (ngSubmit)="AutenticarUsuario()">
+        <div class="alert-danger" *ngIf="false">
+          <p>Carregando Usuário....</p>
+        </div>
+        <div class="card-content">
+          <div class="row">
+            <div class="col s7">
+              <img class="responsive-img" src="../../assets/ImagemLogin.gif">
             </div>
-          </div>
-          <div class="col-5">
-            <div class="row">
-              <div class="col-10">
-                Usuario:
-                <input type="text" name="Usuario" class="form-control" id="txtUsuario" formControlName="login" />
+            <div class="col s5">
+              <div class="row">
+                <div class="input-field">
+                  <input type="text" name="Usuario" [class.invalid]="VerificaCampoValido('login')" id="txtUsuario"
+                    formControlName="login" />
+                  <label for="txtUsuario">Login</label>
+                  <span class="helper-text" data-error="Insira um Login"></span>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-10">
-                Senha:
-                <input type="text" name="Senha" class="form-control" id="txtSenha" formControlName="senha" />
+              <div class="row">
+                <div class="input-field">
+                  <input type="password" name="Senha" id="txtSenha" formControlName="senha" [class.invalid]="VerificaCampoValido('senha')" />
+                  <label for="txtSenha">Senha</label>
+                  <span class="helper-text" data-error="Insira uma Senha"></span>
+                </div>
               </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-10">
-                <input type="submit" class="btn btn-info btn-block" value="Enviar Dados" />
+              <div class="row right-align">
+                <button class="btn green waves-effect waves-light" type="submit">Acessar
+                  <i class="material-icons right">send</i>
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 </body>

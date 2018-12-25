@@ -1,0 +1,36 @@
+<div id="breadcrumb-wrapper" class="white z-depth-0">
+  <div class="row">
+    <div class="col s12">
+      <ol class="breadcrumb">
+        <li><a [routerLink]="['/pedido']">Home</a></li>
+        <li><a [routerLink]="['/modulo']">Módulo</a></li>
+        <li class="active"><a>Detalhar Módulo</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="container z-depth-0">
+  <div class="card-panel z-depth-3">
+    <h4 class="headerCard"><i class="material-icons black-text">list</i>Detalhe Módulo</h4>
+    <div class="divider"></div>
+    <div class="row">
+      <div class="input-field">
+        <input disabled type="text" name="Id" id="txtId" value="{{Modulo.Id}}" />
+        <label class="active" for="txtId">Id</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field">
+        <input disabled type="text" name="Descricao" id="txtDescricao" value="{{Modulo.Descricao}}" />
+        <label class="active" for="txtDescricao">Descrição</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field">
+        <button type="button" class="waves-effect waves-light btn red lighten-1 z-depth-2 right" [routerLink]="['/modulo']">Cancelar
+          <i class="material-icons right">close</i></button>
+      </div>
+    </div>
+  </div>
+</div>

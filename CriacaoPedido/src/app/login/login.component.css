@@ -1,7 +1,7 @@
 /* login css */
 body {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   background: linear-gradient(rgba(191, 230, 199, 0.473), white);
 }
 
@@ -11,4 +11,8 @@ body {
   border-radius: 10px;
   overflow: hidden;
   padding: 50px 0px 30px 30px;
+}
+
+.login-box {
+  height: 95%;
 }
